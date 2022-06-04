@@ -29,7 +29,21 @@ Dataset - Columns analysis
 7. Normalization - Standard Scaling
 8. Make Clean Dataset
 
-
 ## 5. Modeling
+1. Create New Game data only has a EU_Sales
+2. Predict the NA_Sales by the Gradient Boostring Regressor
+3. Predict the Global_Sales by the EU_Sales and NA_Sales
+4. Put the isSuccess column into the data frame by the cut off
 
 ## 6. Evalution
+1. Initalize the newGame
+2. HyperParameter work for predicting NA_Sales using Gradient Boosting Regressor
+3. Split Train set and Test set
+4. Set the grid of the hyperParameters
+5. Set the NA_Sales from the hyperParameter processed model
+6. HyperParameter work for Global_Sales using Gradient Boosting Regressor
+7. Split Train set and Test set
+8. Evaluate the KNN by Confustion Matrix
+9. Accuracy of the Confusion matrix
+10. Set the newGame's isSuccess
+11. Show result after hyperParameter
